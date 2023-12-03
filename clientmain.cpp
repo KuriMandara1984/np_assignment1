@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {	
-	//variable declaration
+	//declaring the variables
 	char delim[]=":";
 	char *Desthost=strtok(argv[1],delim);
 	char *Destport=strtok(NULL,delim); 
